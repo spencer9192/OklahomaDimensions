@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0994DC441B49CB420079C4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994DC431B49CB420079C4CC /* AppDelegate.swift */; };
+		0994DC461B49CB420079C4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994DC451B49CB420079C4CC /* ViewController.swift */; };
+		0994DC491B49CB420079C4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994DC471B49CB420079C4CC /* Main.storyboard */; };
+		0994DC4B1B49CB420079C4CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994DC4A1B49CB420079C4CC /* Images.xcassets */; };
+		0994DC4E1B49CB420079C4CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0994DC4C1B49CB420079C4CC /* LaunchScreen.xib */; };
+		0994DC5A1B49CB420079C4CC /* OklahomaDimensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994DC591B49CB420079C4CC /* OklahomaDimensionsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0994DC541B49CB420079C4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0994DC361B49CB420079C4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0994DC3D1B49CB420079C4CC;
+			remoteInfo = OklahomaDimensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0994DC3E1B49CB420079C4CC /* OklahomaDimensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OklahomaDimensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0994DC421B49CB420079C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0994DC431B49CB420079C4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0994DC451B49CB420079C4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0994DC481B49CB420079C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0994DC4A1B49CB420079C4CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0994DC4D1B49CB420079C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0994DC531B49CB420079C4CC /* OklahomaDimensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OklahomaDimensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0994DC581B49CB420079C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0994DC591B49CB420079C4CC /* OklahomaDimensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OklahomaDimensionsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0994DC3B1B49CB420079C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0994DC501B49CB420079C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0994DC351B49CB420079C4CC = {
+			isa = PBXGroup;
+			children = (
+				0994DC401B49CB420079C4CC /* OklahomaDimensions */,
+				0994DC561B49CB420079C4CC /* OklahomaDimensionsTests */,
+				0994DC3F1B49CB420079C4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0994DC3F1B49CB420079C4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0994DC3E1B49CB420079C4CC /* OklahomaDimensions.app */,
+				0994DC531B49CB420079C4CC /* OklahomaDimensionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0994DC401B49CB420079C4CC /* OklahomaDimensions */ = {
+			isa = PBXGroup;
+			children = (
+				0994DC431B49CB420079C4CC /* AppDelegate.swift */,
+				0994DC451B49CB420079C4CC /* ViewController.swift */,
+				0994DC471B49CB420079C4CC /* Main.storyboard */,
+				0994DC4A1B49CB420079C4CC /* Images.xcassets */,
+				0994DC4C1B49CB420079C4CC /* LaunchScreen.xib */,
+				0994DC411B49CB420079C4CC /* Supporting Files */,
+			);
+			path = OklahomaDimensions;
+			sourceTree = "<group>";
+		};
+		0994DC411B49CB420079C4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0994DC421B49CB420079C4CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0994DC561B49CB420079C4CC /* OklahomaDimensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0994DC591B49CB420079C4CC /* OklahomaDimensionsTests.swift */,
+				0994DC571B49CB420079C4CC /* Supporting Files */,
+			);
+			path = OklahomaDimensionsTests;
+			sourceTree = "<group>";
+		};
+		0994DC571B49CB420079C4CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0994DC581B49CB420079C4CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0994DC3D1B49CB420079C4CC /* OklahomaDimensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0994DC5D1B49CB420079C4CC /* Build configuration list for PBXNativeTarget "OklahomaDimensions" */;
+			buildPhases = (
+				0994DC3A1B49CB420079C4CC /* Sources */,
+				0994DC3B1B49CB420079C4CC /* Frameworks */,
+				0994DC3C1B49CB420079C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OklahomaDimensions;
+			productName = OklahomaDimensions;
+			productReference = 0994DC3E1B49CB420079C4CC /* OklahomaDimensions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0994DC521B49CB420079C4CC /* OklahomaDimensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0994DC601B49CB420079C4CC /* Build configuration list for PBXNativeTarget "OklahomaDimensionsTests" */;
+			buildPhases = (
+				0994DC4F1B49CB420079C4CC /* Sources */,
+				0994DC501B49CB420079C4CC /* Frameworks */,
+				0994DC511B49CB420079C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0994DC551B49CB420079C4CC /* PBXTargetDependency */,
+			);
+			name = OklahomaDimensionsTests;
+			productName = OklahomaDimensionsTests;
+			productReference = 0994DC531B49CB420079C4CC /* OklahomaDimensionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0994DC361B49CB420079C4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Spencer Paschal";
+				TargetAttributes = {
+					0994DC3D1B49CB420079C4CC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0994DC521B49CB420079C4CC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0994DC3D1B49CB420079C4CC;
+					};
+				};
+			};
+			buildConfigurationList = 0994DC391B49CB420079C4CC /* Build configuration list for PBXProject "OklahomaDimensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0994DC351B49CB420079C4CC;
+			productRefGroup = 0994DC3F1B49CB420079C4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0994DC3D1B49CB420079C4CC /* OklahomaDimensions */,
+				0994DC521B49CB420079C4CC /* OklahomaDimensionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0994DC3C1B49CB420079C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0994DC491B49CB420079C4CC /* Main.storyboard in Resources */,
+				0994DC4E1B49CB420079C4CC /* LaunchScreen.xib in Resources */,
+				0994DC4B1B49CB420079C4CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0994DC511B49CB420079C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0994DC3A1B49CB420079C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0994DC461B49CB420079C4CC /* ViewController.swift in Sources */,
+				0994DC441B49CB420079C4CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0994DC4F1B49CB420079C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0994DC5A1B49CB420079C4CC /* OklahomaDimensionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0994DC551B49CB420079C4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0994DC3D1B49CB420079C4CC /* OklahomaDimensions */;
+			targetProxy = 0994DC541B49CB420079C4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0994DC471B49CB420079C4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0994DC481B49CB420079C4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0994DC4C1B49CB420079C4CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0994DC4D1B49CB420079C4CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0994DC5B1B49CB420079C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0994DC5C1B49CB420079C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0994DC5E1B49CB420079C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OklahomaDimensions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0994DC5F1B49CB420079C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OklahomaDimensions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0994DC611B49CB420079C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OklahomaDimensionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OklahomaDimensions.app/OklahomaDimensions";
+			};
+			name = Debug;
+		};
+		0994DC621B49CB420079C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OklahomaDimensionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OklahomaDimensions.app/OklahomaDimensions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0994DC391B49CB420079C4CC /* Build configuration list for PBXProject "OklahomaDimensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0994DC5B1B49CB420079C4CC /* Debug */,
+				0994DC5C1B49CB420079C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0994DC5D1B49CB420079C4CC /* Build configuration list for PBXNativeTarget "OklahomaDimensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0994DC5E1B49CB420079C4CC /* Debug */,
+				0994DC5F1B49CB420079C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0994DC601B49CB420079C4CC /* Build configuration list for PBXNativeTarget "OklahomaDimensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0994DC611B49CB420079C4CC /* Debug */,
+				0994DC621B49CB420079C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0994DC361B49CB420079C4CC /* Project object */;
+}
